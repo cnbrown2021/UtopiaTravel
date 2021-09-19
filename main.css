@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+li, a, button {
+    font-family: "DM Serif Display"; serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(172, 86, 37);
+    text-decoration: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(243, 203, 129);
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(236, 231, 226);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(247, 216, 159);
+}
+
+h1 {
+    color: rgb(223, 124, 59);
+    margin-right: auto;
+    font-size: 40px;
+}
+
+.banner {
+    background-image: url("img/hammock.jpg");
+    background-size: cover;
+    background-position: center center;
+    top: 0px;
+    height: 70vh;
+    width: 100%
+}
+
+/*Section*/
+
