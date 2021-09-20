@@ -76,7 +76,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("C:/EFAProjects/Projects/UtopiaStorefront/img/tanzania.jpg");
+    background-image: url("img/tanzania.jpg");
     background-position: center;
     background-size: cover;
 }
